@@ -1,6 +1,8 @@
 # Detect 16S conserved regions
 Given one or more sequences, in FASTA or FASTQ format, this script will align the query against _E. coli_ 16S gene, returning the variable regions covered.
 
+Forked from [16S Region](https://github.com/telatin/16s-region)
+
 ### detect_region.pl
 
 Will check an input sequence in FASTA or FASTQ format and detect the hypervariable regions of the reference (_E. coli_) 16S. If the input file contains more
